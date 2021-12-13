@@ -9,7 +9,7 @@ These labs are modified versions of the ones available in the [docker/labs](http
 * [1. Running your first container](containers/chapters/alpine.md)
 * [2. Webapp with Docker](containers/chapters/webapps.md)
 
-## Kubernets labs
+## Kubernetes labs
 
 * [1. Getting started](kubernetes/getting-started.md)
 * [2. Deployments and networking basics](kubernetes/deployments.md)
