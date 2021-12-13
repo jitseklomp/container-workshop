@@ -148,6 +148,8 @@ Try to create a `static` Pod using the `static-site` example from the previous l
 3. Add the label `app=static-site` to pod 'static'
 4. Create a **Pod** using `registry.access.redhat.com/ubi8-minimal` (using `kubectl`) that runs the command `env`. Run it and check the output.
 5. Generate a **Pod** manifest using `registry.access.redhat.com/ubi8-minimal` that runs the command `env`. Set the environment variable `HELLO=WORLD`. Inspect the manifest, apply it and check the output.
-6. Create a **Pod** "static-new" running the same httpd container image as before but with port `80` exposed.
+6. Create a **Pod** "static-new" running the same static-site container image as before but with port `80` exposed.
 7. Get the YAML describing "static" and "static-new" **Pods** and compare
 8. Get "static-new" pod's ip created in previous step, use a temporary UBI **Pod** to `curl` its '/'
+
+> Solutions: [solutions-1.md](solutions-1.md)
