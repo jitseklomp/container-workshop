@@ -1,8 +1,10 @@
-# Docker  Labs
+# Workshop  Labs
 
-Welcome! This is a modified version of the [docker/labs](https://github.com/docker/labs) repository.
+Welcome!
 
 ## Docker labs
+
+These labs are modified versions of the ones available in the [docker/labs](https://github.com/docker/labs) repository.
 
 * [1. Running your first container](containers/chapters/alpine.md)
 * [2. Webapp with Docker](containers/chapters/webapps.md)
