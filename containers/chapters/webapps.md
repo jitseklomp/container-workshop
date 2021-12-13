@@ -290,7 +290,7 @@ A [Dockerfile](https://docs.docker.com/engine/reference/builder/) is a text file
 Create a file called `Dockerfile`, and add content to it as described below. We'll start by specifying our base image, using the `FROM` keyword:
 
 ```dockerfile
-FROM alpine:3.5
+FROM alpine:3.15
 ```
 
 The next step usually is to write the commands of copying the files and installing the dependencies. But first we will install the Python pip package to the alpine linux distribution. This will not just install the pip package but any other dependencies too, which includes the python interpreter. Add the following [RUN](https://docs.docker.com/engine/reference/builder/#run) command next:
