@@ -12,6 +12,8 @@ These labs are modified versions of the ones available in the [docker/labs](http
 ## Kubernets labs
 
 * [1. Getting started](kubernetes/getting-started.md)
+* [2. Deployments and networking basics](kubernetes/deployments.md)
+
 
 ## Other labs
 
