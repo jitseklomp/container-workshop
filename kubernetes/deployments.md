@@ -1,5 +1,7 @@
 # Labs - pt. 2
 
+Running single Pods is fun but let's move to a new abstraction level: Deployments
+
 ## Deployments
 
 1. Create deployment "nginx" with image `nginx:1.18.0`, called nginx, having 2 replicas, defining port 80 as the port that this container exposes
