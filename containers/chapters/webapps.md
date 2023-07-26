@@ -243,7 +243,7 @@ if __name__ == "__main__":
 In order to install the Python modules required for our app, we need to create a file called `requirements.txt` and add the following line to that file:
 
 ```python
-Flask==0.10.1
+Flask==2.0.2
 ```
 
 #### templates/index.html
